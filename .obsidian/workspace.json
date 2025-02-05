@@ -1,0 +1,222 @@
+{
+  "main": {
+    "id": "1a947f55fd7b2062",
+    "type": "split",
+    "children": [
+      {
+        "id": "4103ec116ad85cd6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c5025e4444ca84d5",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "1. Projects/Herrerasoft Website Kanban.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    true
+                  ]
+                }
+              },
+              "icon": "lucide-trello",
+              "title": "Herrerasoft Website Kanban"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1c4fdb6819f52a90",
+    "type": "split",
+    "children": [
+      {
+        "id": "2b22af1910cda060",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ccdb40f0d4ad0582",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "faaa49f4b6863a64",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "dfd10fa037308be4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 233.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "bc26f82f1c482841",
+    "type": "split",
+    "children": [
+      {
+        "id": "5756a1aab3b7a29d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "15051bdf1e36d8a0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Links.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Links"
+            }
+          },
+          {
+            "id": "d82a2e1b86f1d5a8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Study topics/C Sharp.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from C Sharp"
+            }
+          },
+          {
+            "id": "1e936c4946aa06fc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "7da683e9f6409025",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Study topics/C Sharp.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of C Sharp"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-kanban:Create new board": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "c5025e4444ca84d5",
+  "lastOpenFiles": [
+    "3. Resources/Abstract Factory.md",
+    "3. Resources/Builder.md",
+    "3. Resources/Singleton.md",
+    "2. Areas/Design Patterns.md",
+    "3. Resources/Design Patterns.md",
+    "1. Projects/Herrerasoft Website.md",
+    "3. Resources/SOLID.md",
+    "2. Areas/C Sharp Studies.md",
+    "2. Areas/Computer Science.md",
+    "4. Archives/Wix Installer.md",
+    "Pasos para compilar.md",
+    "4. Archives/Drawing.md",
+    "3. Resources/Entity Framework Commands.md",
+    "4. Archives/Resources.md",
+    "3. Resources/Form 8300.md",
+    "3. Resources/Events Delegates.md",
+    "3. Resources/Dependency Injection.md",
+    "3. Resources/Async - Await.md",
+    "3. Resources/Arch Setup.md",
+    "3. Resources/APR Formula.md",
+    "3. Resources/Abstract Classes.md",
+    "4. Archives/Russian.md",
+    "4. Archives/Repo letters.md",
+    "4. Archives/SQL server configuration.md",
+    "4. Archives/Forms.md",
+    "3. Resources/VS Code Configurations.md",
+    "4. Archives",
+    "3. Resources",
+    "2. Areas",
+    "1. Projects",
+    "Personal/Exercise/Body Building",
+    "Personal/Exercise/Running",
+    "Personal/Exercise",
+    "Work/Projects",
+    "Personal/Exercise/Goals",
+    "Personal/Journal/Role Models",
+    "5. Media/Images/Pasted image 20240820200052.png",
+    "5. Media/Images/Pasted image 20240819100727.png",
+    "5. Media/Images/Pasted image 20240819094015.png",
+    "5. Media/Images/Pasted image 20240819093925.png",
+    "5. Media/Images/Pasted image 20240819093214.png",
+    "5. Media/Images/Pasted image 20240819093155.png",
+    "Media/Pasted image 20241005192527.png",
+    "Untitled.canvas"
+  ]
+}
