@@ -1,9 +1,6 @@
 ---
 date: 2025-02-04
-tags:
-  - csharp
-  - study
-source: "[[Videos#Advanced Topics in C Sharp]]"
+tags: []
 ---
 Is a way for objects to communicate between each other, it's like notifying that something happened. 
 

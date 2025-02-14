@@ -1,8 +1,8 @@
 ---
 date: 2025-02-04
 tags:
-  - commands
-  - SQL
+  - archive/herrerasoft
+  - archive/sql
 ---
 [Configure firewall](https://learn.microsoft.com/en-us/sql/sql-server/install/configure-the-windows-firewall-to-allow-sql-server-access?view=sql-server-ver16)
 [SQL Server Reporting Services](https://learn.microsoft.com/en-us/sql/reporting-services/install-windows/install-reporting-services?view=sql-server-ver16)

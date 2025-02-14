@@ -1,7 +1,7 @@
 ---
 date: 2025-02-04
 tags:
-  - study
+  - archive/russian
 ---
 [Introduction video](https://www.youtube.com/watch?v=HErPyvv_Rsw&t=424s)
 [How To Learn Russian Online](https://www.youtube.com/watch?v=H7qg-rubpuM)

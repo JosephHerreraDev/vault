@@ -1,8 +1,7 @@
 ---
 date: 2025-02-04
 tags:
-  - webdev
-  - study
+  - topic/webdev
 ---
 ## Sin escribir tipos
 

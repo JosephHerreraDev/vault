@@ -1,7 +1,8 @@
 ---
 date: 2025-02-04
 tags:
-  - herrerasoft
+  - archive/herrerasoft
+  - archive/forms
 ---
 Form 50-244
 Form 50-246

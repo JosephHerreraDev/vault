@@ -1,8 +1,6 @@
 ---
 date: 2025-02-04
-tags:
-  - csharp
-  - study
+tags: []
 ---
 > Declare only once
 

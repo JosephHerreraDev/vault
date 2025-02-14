@@ -1,9 +1,6 @@
 ---
 date: 2025-02-04
-tags:
-  - csharp
-  - study
-source: "[[Videos#Advanced Topics in C Sharp]]"
+tags: []
 ---
 1. **public**: access in all the program
 2. **private:** can only access in the class it is declared in

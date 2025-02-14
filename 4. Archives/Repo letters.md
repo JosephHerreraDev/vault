@@ -1,7 +1,8 @@
 ---
 date: 2025-02-04
 tags:
-  - notes
+  - archive/herrerasoft
+  - archive/forms
 ---
 1. Se puede mandar un aviso que va retrasado en pagos
 2. Cuando se entra en demora (default):

@@ -1,8 +1,7 @@
 ---
 date: 2025-02-04
 tags:
-  - setup
-  - notes
+  - config/software
 ---
 Esta es la lista de programas a instalar en una nueva instalación:
 

@@ -1,8 +1,8 @@
 ---
 date: 2025-02-04
 tags:
-  - notes
-  - Wix
+  - archive/herrerasoft
+  - archive/wix
 ---
 Version 5
 [docs](https://wixtoolset.org/docs/intro/)

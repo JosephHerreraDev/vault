@@ -1,9 +1,6 @@
 ---
 date: 2025-02-04
-tags:
-  - csharp
-  - study
-source: "[[Videos#Advanced Topics in C Sharp]]"
+tags: []
 ---
 [Asynchronous programming](https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/)
 

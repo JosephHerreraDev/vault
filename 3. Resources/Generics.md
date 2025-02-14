@@ -1,9 +1,6 @@
 ---
 date: 2025-02-04
-tags:
-  - csharp
-  - study
-source: "[[Videos#Advanced Topics in C Sharp]]"
+tags: []
 ---
 Is a feature to create classes, methods and data structures that work with any type.
 ### Generics in classes

@@ -10,6 +10,6 @@
   },
   "attachmentFolderPath": "Media",
   "vimMode": true,
-  "showLineNumber": false,
+  "showLineNumber": true,
   "readableLineLength": true
 }

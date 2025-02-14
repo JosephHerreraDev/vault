@@ -1,8 +1,7 @@
 ---
 date: 2025-02-04
 tags:
-  - notes
-  - git
+  - cheat-sheet/git
 ---
 
 Change origin URL

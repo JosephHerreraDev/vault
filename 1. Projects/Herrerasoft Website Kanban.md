@@ -1,7 +1,7 @@
 ---
-
 kanban-plugin: board
-
+tags:
+  - project/herrerasoft-website
 ---
 
 ## To-Do

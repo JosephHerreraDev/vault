@@ -1,9 +1,6 @@
 ---
 date: 2025-02-04
-tags:
-  - csharp
-  - study
-source: "[[Videos#Advanced Topics in C Sharp]]"
+tags: []
 ---
 They are used when we have more than one class that does almost the same thing and we want to use it in a certain way in which we prefer to not repeat or rethink logic.
 

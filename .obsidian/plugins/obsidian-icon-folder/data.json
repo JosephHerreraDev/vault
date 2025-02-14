@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiHammer",
+      "LiCamera",
       "LiPin",
       "LiArchive",
-      "LiGoal",
-      "LiCheckCircle2",
-      "LiNotepadText"
+      "LiGoal"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -34,10 +34,10 @@
     "debugMode": false,
     "useInternalPlugins": false
   },
-  "5. Media": "LiCamera",
-  "5. Media/Images": "LiImage",
   "1. Projects": "LiGoal",
   "4. Archives": "LiArchive",
   "3. Resources": "LiLink",
-  "2. Areas": "LiPin"
+  "2. Areas": "LiPin",
+  "Media": "LiCamera",
+  "Templates": "LiHammer"
 }

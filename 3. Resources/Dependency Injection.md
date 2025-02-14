@@ -1,21 +1,21 @@
 ---
 date: 2025-02-04
-tags:
-  - csharp
-  - study
-source: "[[Videos#Advanced Topics in C Sharp]]"
 ---
 Is a design pattern used to achieve Inversion of Control (IoC) between classes and dependencies. Instead of creating dependencies directly within a class, dependencies are provided from an external source, allowing for **loose coupling** between classes and **greater flexibility** in how dependencies are managed.
 
 In essence, Dependency Injection allows a class to delegate the responsibility of acquiring its dependencies to an external system or mechanism, improving modularity, reusability, and testability.
 
-### Why?
+.NET provides a built-in service container, IServiceProvider.
+
+# Why?
+---
 1. Loose Coupling
 2. Testability
 3. Flexibility
 4. Modularity
 
-### Dependency Injection in Detail
+# Dependency Injection in Detail
+---
 
 ```csharp
 public class OrderProcessor
@@ -134,3 +134,7 @@ public class OrderController : Controller
 ```
 
 The container ensures `OrderProcessor` has all the dependencies it needs, and we can change `INotificationService`’s implementation without altering `OrderProcessor`.
+
+# Sources
+---
+[Dependency Injection Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection)

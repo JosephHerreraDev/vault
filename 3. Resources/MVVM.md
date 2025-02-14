@@ -1,9 +1,7 @@
 ---
 date: 2025-02-04
-tags:
-  - csharp
-  - study
-source: "[[Videos#WPF MVVM]]"
+tags: 
+source: "[[Bookmarks#[WPF MVVM](https //www.youtube.com/playlist?list=PLA8ZIAm2I03hS41Fy4vFpRw8AdYNBXmNm)|WPF MVVM]]"
 ---
 Complex maintenance issues can arise as apps are modified and grow in size and scope. These issues include the tight coupling between the UI controls and the business logic, which increases the cost of making UI modifications, and the difficulty of unit testing such code. 
 

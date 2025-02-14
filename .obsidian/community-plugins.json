@@ -2,5 +2,7 @@
   "obsidian-minimal-settings",
   "obsidian-icon-folder",
   "obsidian-kanban",
-  "templater-obsidian"
+  "dataview",
+  "obsidian-outliner",
+  "calendar"
 ]

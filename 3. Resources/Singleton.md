@@ -1,19 +1,46 @@
 ---
 date: 2025-02-04
-tags:
-  - design-patterns
-  - csharp
-  - study
 ---
 Ensures a class has only one instance and provides a global point of access to that instance.
 
-## When to use?
-- When you need a single resource to the application
+# Problem
+---
+Solves two problems at once that put in danger the [[Single Responsibility Principle]]:
+1. Ensures a class has a single instance.
+2. Provides a global access point to said instance.
 
-## Implementation
-
-### Example 1: Eager Initialization
-
+# Solution
+---
+All implementations of Singleton follow this two common steps:
+- Make the default constructor private to prevent other objects from using the `new` operator with the Singleton class. 
+- Create a static creation method that acts as the constructor. Behind the scenes, this object calls the private constructor and saves the static field. Following calls to this method return the object stored in cache.
+# Structure
+---
+![Obsidian|500](Singleton%20Diagram.png)
+# Applicability
+---
+- [i] When a class in the program should have just a single instance available to all clients
+- [i] Stricter control over global variables is needed.
+# Pros and Cons
+---
+- [p] A class will always have a single instance
+- [p] There is a global access point to said instance
+- [p] The Singleton object is only initialized when it is required one time  
+- [c]  It endangers the [[Single Responsibility Principle]]. The pattern solves two problems at once
+- [c] It can result in a bad design, when for example, the components of a program know a lot about each other
+- [c] The pattern requires a special treatment in multiple thread environments, so that multiple threads don't create multiple Singleton objects. 
+- [c] Can result difficult to make unitary tests, because many frameworks rely on inheritance to build simulated objects (mocks). The Singleton has to be simulated in another way or not use Singleton.
+# Relation to other patterns
+---
+- A [[Facade]] class can often transform into a Singleton, since a single Facade object is enough for most cases.
+- [[Flyweight]] can be similar to a Singleton if in some way all the shared states could be reduced to a single flyweight.
+	1. There should only be a single instance of Singleton, and flyweight can have many with different states.
+	2. The Singleton can be mutable. flyweight are unchangeable.
+- The patterns [[Abstract Factory]], [[Builder]] and [[Prototype]] can all be implemented as Singletons.
+# Implementation
+---
+## Example 1: Eager Initialization
+---
 ```csharp
 using System;
 
@@ -52,8 +79,8 @@ class Program
 
 ```
 
-### Example 2: Lazy Initialization with Thread Safety
-
+## Example 2: Lazy Initialization with Thread Safety
+---
 ```csharp
 using System;
 

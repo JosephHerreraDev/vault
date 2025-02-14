@@ -1,8 +1,7 @@
 ---
 date: 2025-02-04
 tags:
-  - linux
-  - notes
+  - config/arch
 ---
 ### 1. Identify Your Storage Devices
 
