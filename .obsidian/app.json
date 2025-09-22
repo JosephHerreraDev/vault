@@ -11,5 +11,6 @@
   "attachmentFolderPath": "Media",
   "vimMode": true,
   "showLineNumber": true,
-  "readableLineLength": true
+  "readableLineLength": true,
+  "strictLineBreaks": true
 }

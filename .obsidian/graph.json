@@ -8,45 +8,31 @@
   "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "tag:#archive",
+      "query": "tag:#resource",
       "color": {
         "a": 1,
-        "rgb": 14701138
+        "rgb": 5526240
       }
     },
     {
-      "query": "tag:#area  ",
+      "query": "tag:#note",
       "color": {
         "a": 1,
-        "rgb": 13193952
+        "rgb": 11657298
       }
     },
     {
-      "query": "tag:#project  ",
+      "query": "path:Templates  ",
       "color": {
         "a": 1,
-        "rgb": 5422560
+        "rgb": 65297
       }
     },
     {
-      "query": "tag:#config  ",
+      "query": "tag:#labnote  ",
       "color": {
         "a": 1,
-        "rgb": 5431378
-      }
-    },
-    {
-      "query": "path:\"3. Resources\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 14725970
-      }
-    },
-    {
-      "query": "tag:#template  ",
-      "color": {
-        "a": 1,
-        "rgb": 15796648
+        "rgb": 12210912
       }
     }
   ],
@@ -55,11 +41,11 @@
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
-  "collapse-forces": false,
-  "centerStrength": 0.554054054054054,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.7374784991605126,
+  "scale": 0.7514342322277585,
   "close": true
 }

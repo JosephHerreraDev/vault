@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiCheck",
+      "LiPen",
       "LiHammer",
       "LiCamera",
-      "LiPin",
-      "LiArchive",
-      "LiGoal"
+      "LiPin"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -34,10 +34,7 @@
     "debugMode": false,
     "useInternalPlugins": false
   },
-  "1. Projects": "LiGoal",
-  "4. Archives": "LiArchive",
-  "3. Resources": "LiLink",
-  "2. Areas": "LiPin",
   "Media": "LiCamera",
-  "Templates": "LiHammer"
+  "Templates": "LiHammer",
+  "TODO.md": "LiCheck"
 }

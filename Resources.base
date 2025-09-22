@@ -1,0 +1,19 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.tags.contains("resource")
+    order:
+      - file.name
+      - source
+      - completed
+    sort:
+      - property: tags
+        direction: DESC
+      - property: completed
+        direction: DESC
+    columnSize:
+      file.name: 311
+      note.source: 195
+      note.completed: 220
