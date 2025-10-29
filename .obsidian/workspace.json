@@ -4,11 +4,19 @@
     "type": "split",
     "children": [
       {
+<<<<<<< HEAD
         "id": "de55b677cd4eddbd",
         "type": "tabs",
         "children": [
           {
             "id": "7ef93bc97ae483ed",
+=======
+        "id": "377dbff3065f4737",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1d42731526f71fd7",
+>>>>>>> bc832953959e7b9d2bbf1c65a16265501f3811ba
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -80,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5,
-    "collapsed": true
+    "width": 299.5
   },
   "right": {
     "id": "bc26f82f1c482841",
@@ -162,8 +169,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
         ],
@@ -226,14 +233,17 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-kanban:Create new board": false,
-      "audio-recorder:Start/stop recording": false,
-      "obsidian-git:Open Git source control": false
+      "audio-recorder:Start/stop recording": false
     }
   },
+<<<<<<< HEAD
   "active": "7ef93bc97ae483ed",
   "lastOpenFiles": [
     "Programs.md",
+=======
+  "active": "1d42731526f71fd7",
+  "lastOpenFiles": [
+>>>>>>> bc832953959e7b9d2bbf1c65a16265501f3811ba
     "Arch Setup.md",
     "Dealer Workflow.md",
     "Connect Remotely.md",

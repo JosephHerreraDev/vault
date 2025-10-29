@@ -212,6 +212,13 @@ sudo nvim /etc/sddm.conf
 ---
 # 16. SSH Key Setup for GitHub
 
+Add user email and name
+
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "your-email@example.com"
+```
+
 Generate a new SSH key (RSA 4096-bit):
 
 ```bash
