@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0c61baa9b0aa3918",
+        "id": "377dbff3065f4737",
         "type": "tabs",
         "children": [
           {
-            "id": "5e566dd47cdcf1da",
+            "id": "1d42731526f71fd7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5,
-    "collapsed": true
+    "width": 299.5
   },
   "right": {
     "id": "bc26f82f1c482841",
@@ -162,8 +161,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
         ],
@@ -226,13 +225,12 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-kanban:Create new board": false,
-      "audio-recorder:Start/stop recording": false,
-      "obsidian-git:Open Git source control": false
+      "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "5e566dd47cdcf1da",
+  "active": "1d42731526f71fd7",
   "lastOpenFiles": [
+    "Arch Setup.md",
     "Dealer Workflow.md",
     "Connect Remotely.md",
     "Chapter 348.md",
@@ -241,7 +239,6 @@
     "Blazor.md",
     "ASP.NET Core Developer.md",
     "Asp.Net Core Basics.md",
-    "Arch Setup.md",
     "APR Formula.md",
     "Arithmetic.md",
     "Advanced C sharp Course.md",
