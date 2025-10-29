@@ -35,6 +35,5 @@
     "useInternalPlugins": false
   },
   "Media": "LiCamera",
-  "Templates": "LiHammer",
   "TODO.md": "LiCheck"
 }

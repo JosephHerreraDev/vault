@@ -4,3 +4,4 @@
 - [ ] Review [[Middlewares]]
 - [ ] Review [[Overview of Asp.Net core MVC]]
 - [ ] View video [[How to Do 90% of What Plugins Do (With Just Vim)]]
+- [ ] [Follow docs](https://learn.microsoft.com/en-us/aspnet/core/security/authentication/cookie?view=aspnetcore-8.0)

@@ -58,26 +58,9 @@ archinstall
 
 When prompted during installation, choose:
 
-- **Desktop:** `hyprland`  
+- **Desktop:** `sway`  
 - **Graphics:** `Nvidia proprietary` drivers  
-- **Kernel:** `linux-zen`  
-
-You can add additional packages during installation:
-
-```text
-Additional packages: 
-- git
-- pipewire
-- lib32-pipewire
-- wireplumber
-- pipewire-audio
-- pipewire-pulse
-- pipewire-alsa
-- sof-firmware
-```
-
-If needed, enable the multilib repository for 32-bit support.
-
+- **Kernel:** `linux-zen`
 ---
 
 # 5. Installing GRUB (EFI Systems)
@@ -99,16 +82,135 @@ nmtui
 ```
 
 ---
-
-# 7. Installing Firefox
+# 7. Configuration File (sway)
 
 ```bash
-sudo pacman -S firefox
+sudo pacman -S nvim man-db
+mkdir -p ~/.config/sway
+cp /etc/sway/config ~/.config/sway/
+nvim ~/.config/sway/config
+```
+
+---
+# 8. Configure resolution
+
+```bash
+swaymsg -t get_outputs
+(in config file)
+output <screen-name> resolution <resolution> position 1920,0
+```
+
+---
+# 9. Installing AUR helper (yay)
+
+```bash
+sudo pacman -Sy --needed git base-devel
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+```
+
+---
+# 10. Installing nerdfont
+
+```bash
+yay -S ttf-meslo-nerd
+fc-list | grep Meslo
+nvim ~/.config/sway/config
+(in config)font pango:Meslo LGM Nerd Font 10
+```
+
+---
+# 11. Installing Brave
+
+```bash
+yay -Sy brave-bin
+```
+
+---
+# 12. Wallpaper
+
+```bash
+mkdir Pictures
+cd Pictures
+git clone https://github.com/JosephHerreraDev/wallpapers.git
+(in configuration file)
+output * bg /Pictures/wallpapers/wallpaper.png fill
+```
+
+---
+# 13. Kitty config
+
+```bash
+sudo pacman -S kitty
+(in configuration file)
+set $term kitty
+cp /usr/share/doc/kitty/kitty.conf ~/.config/kitty/kitty.conf
+kitten themes
+(in kitty.conf)
+font_family Meslo LGM Nerd Font
+```
+
+---
+# 14. Neovim Config
+
+```bash
+
 ```
 
 ---
 
-# 8. SSH Key Setup for GitHub
+# 15 Waybar config
+
+```bash
+sudo pacman -S waybar
+(in configuration file)
+exec waybar
+```
+---
+# 16. Rofi config
+
+```bash
+sudo pacman -S rofi
+(in config file)
+set $menu rofi
+bindsym $mod+d exec $menu -show drun
+rofi -dump-config > ~/.config/rofi/config.rasi
+```
+
+# 17. Spotify + Spicetify
+
+```bash
+sudo pacman -S spotify-launcher
+yay -S spicetify-cli
+spicetify
+spicetify backup apply enable-devtools
+yay -S spicetify-themes-git
+spicetify config current_theme Sleek 
+spicetify config color_scheme Nord
+spicetify apply 
+```
+
+# 18. Silent Sddm
+
+```bash
+yay -S sddm-silent-theme
+sudo nvim /etc/sddm.conf
+[General]
+	InputMethod=qtvirtualkeyboard
+	GreeterEnvironment=QML2_IMPORT_PATH=/usr/share/sddm/themes/silent/components/,QT_IM_MODULE=qtvirtualkeyboard
+
+	[Theme]
+	Current=silent
+```
+
+# 15. GNU Stow
+
+```bash
+
+```
+---
+# 16. SSH Key Setup for GitHub
 
 Generate a new SSH key (RSA 4096-bit):
 

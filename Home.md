@@ -1,6 +1,0 @@
-
-![[TODO]]
-
-# Resources
-![[Resources.base]]
-
