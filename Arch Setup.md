@@ -250,6 +250,3 @@ ssh -T git@github.com
 ```
 
 ---
-# TODO
-Learn about starship bash for terminal
-GTK theme
