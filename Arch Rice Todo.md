@@ -1,6 +1,10 @@
 - [x] Change wallpaper in real time
 - [x] GTK theme
 - [x] Currently playing pause, next, previous on spotify in waybar (swaync, but album cover does not show, Spotify issue)
-- [ ] Improve swaync, apply nord theme
-- [ ] Learn about starship bash for terminal
+- [x] Improve swaync, apply nord theme
+- [x] Learn about starship bash for terminal
+- [ ] Show volume with widget 
+	- [eww](https://github.com/elkowar/eww) 
 - [ ] Have different themes or change ui colors by changing wallpaper
+	- [helwall](https://github.com/danihek/hellwal)
+	- [similar project](https://github.com/commended/dotfiles) 
