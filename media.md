@@ -1,0 +1,57 @@
+Shows: 
+- Mr. Robot
+- ATLA
+- Community
+- Silicon Valley
+- South Park
+- The Office
+
+Movies: 
+- 21 Grams
+- 2001 A Space Odyssey
+- American Psycho
+- Amores Perros
+- Babel
+- Bastardos Sin Gloria
+- Black Swan
+- Blade Runner 2049
+- Chungking Express
+- Climax
+- Django Unchained
+- Donnie Darko
+- Enemy
+- Eterno resplandor de una mente sin recuerdos
+- Fight Club
+- Flee
+- Full Metal Jacket
+- Good Will Hunting
+- Hannibal
+- Incendies
+- Infinity Pool
+- Interstellar
+- Irreversible
+- Kill Bill
+- Kill Bill 2
+- La Haine
+- La Maravillosa Historia de Henry Sugar
+- Lost in Translation
+- Meet Joe Black
+- Oldboy
+- Perfect Blue
+- Phantom Thread 2017
+- Pulp Fiction
+- Scott Pilgrim Vs The World
+- Silence
+- Taxi Driver
+- Tenet
+- The Batman
+- The Dark Knight
+- The Hobbit M4
+- The Secret Life Of Walter Mitty
+- The Social Network
+- The Truman Show
+- The Whale
+- The Wrestler
+- There Will Be Blood
+- Whiplash
+- Y Tu Mama Tambien
