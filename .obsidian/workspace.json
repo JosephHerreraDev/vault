@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a02ccd289c3bc038",
+        "id": "753dac66a23a7d48",
         "type": "tabs",
         "children": [
           {
-            "id": "15f50cd41c62fb8a",
+            "id": "26875f0f964c39f8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TODO.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "TODO"
+              "title": "New tab"
             }
           }
         ]
@@ -79,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "07b7bc711521c8df",
@@ -183,15 +179,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cfb9c6f364bef5fc",
+  "active": "26875f0f964c39f8",
   "lastOpenFiles": [
     "TODO.md",
-    "How to Do 90% of What Plugins Do (With Just Vim).md",
     "Resources.base",
+    "Untitled.md",
     "Archive/Wix Installer.md",
+    "Archive/media.md",
+    "Archive/OCCC.md",
+    "Archive/Entity Framework Commands.md",
+    "Archive/Dealer Workflow.md",
+    "Archive/Connect Remotely.md",
+    "Archive/Chess.md",
+    "Archive/Chapter 348.md",
+    "Archive/Arch Setup.md",
+    "Archive/Arch Rice Todo.md",
+    "Archive/APR Formula.md",
+    "Archive/Vim as your editor.md",
+    "How to Do 90% of What Plugins Do (With Just Vim).md",
     "Archive/VS Code Configurations.md",
     "Archive/Vim Tutor.md",
-    "Archive/Vim as your editor.md",
     "Archive/Used Cars Dealership Software Guide.md",
     "Archive/Statutes & Rules.md",
     "Testing web apps.md",
@@ -200,18 +207,6 @@
     "Archive/SQL server configuration.md",
     "Archive/Software to install.md",
     "SOLID.md",
-    "Single Responsibility Principle.md",
-    "Archive/Sale Pitch.md",
-    "Archive/Russian.md",
-    "REST.md",
-    "Archive/Programs.md",
-    "Razor.md",
-    "Random Numbers.md",
-    "Archive/Program Overview.md",
-    "Archive/OCCC.md",
-    "Overview of Asp.Net core MVC.md",
-    "OSSU Math Course.md",
-    "OSSU CS Course.md",
     "Archive"
   ]
 }
